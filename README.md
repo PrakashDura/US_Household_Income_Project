@@ -9,14 +9,14 @@ The project consists of two key phases:
 
 ---
 
-# 📂 Dataset Information
+## 📂 Dataset Information
 The dataset consists of two tables:
 - **`us_household_income`**: Contains household income details, location-based attributes (state, city, county), and land/water area statistics.
 - **`us_household_income_statistics`**: Provides statistical metrics such as **mean and median income**.
 
 ---
 
-# 🛠️ Data Cleaning Process
+## 🛠️ Data Cleaning Process
 
 ## ✅ Steps Performed:
 ### 🔍 Identifying and Removing Duplicates
@@ -36,7 +36,7 @@ The dataset consists of two tables:
 
 ---
 
-# 📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 ## 📈 Key Insights Explored:
 - **Total land and water area** by state.
 - **Top 10 states** with the largest land and water areas.
@@ -46,7 +46,7 @@ The dataset consists of two tables:
 
 ---
 
-# 🚀 Technologies Used
+## 🚀 Technologies Used
 - **Database:** MySQL
 - **Techniques:** Data Cleaning, SQL Joins, Aggregations, Subqueries
 - **Tools:** SQL Workbench / MySQL CLI
