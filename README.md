@@ -17,12 +17,22 @@ The dataset consists of two tables:
 ---
 
 # 🛠️ Data Cleaning Process
+
 ## ✅ Steps Performed:
-- Identified and removed **duplicate records**.
-- Standardized **state names and abbreviations**.
-- Fixed **missing or incorrect location data**.
-- Corrected **misclassified geographic types** (e.g., Borough vs. Boroughs).
-- Verified **land and water area values** for inconsistencies.
+### 🔍 Identifying and Removing Duplicates
+- Checked for **duplicate records** using `COUNT(id)`, `GROUP BY`, and `ROW_NUMBER()`.
+- Removed duplicate records using a **subquery and DELETE operation**.
+
+### 🏷️ Standardizing Data
+- Corrected **inconsistent state names and abbreviations** by updating incorrect values.
+- Fixed **misclassified geographic types** (e.g., "Boroughs" → "Borough").
+
+### 📌 Handling Missing Values
+- Identified **empty or incorrect fields** in location data.
+- Updated missing values in **city, county, and place** columns.
+
+### 📏 Validating Area Measurements
+- Verified **land and water area values** for anomalies and inconsistencies.
 
 ---
 
